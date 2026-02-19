@@ -14,8 +14,8 @@ Entropy Function : Tsalli's entropy
 
 We convert the result matrix back to 0, 1 using Goemans - Williamson rounding.
 
-## Running script : 
+## Run: 
 
 ```python
-python max-cut-epsdp.py
+python max_cut_epsdp.py
 ```
