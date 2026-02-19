@@ -6,16 +6,16 @@ Max Cut : split graph nodes into two groups so that number of edges crossing bet
 
 ## Flow of solving : 
 
-Rank 1 solution (NP Hard) -> Semi Definite Proggraming -> Entropy penalised SDP
+Rank 1 solution (NP Hard) -> Semi Definite Programming -> Entropy penalised SDP
 
 we are relaxing a hard constraint to high rank then adding entropy to it to get better solving time. 
 
-Entropy Function : tsallis entropy
+Entropy Function : Tsalli's entropy
 
 We convert the result matrix back to 0, 1 using Goemans - Williamson rounding.
 
 ## Running script : 
 
-'''python
+´´´python
 python max-cut-epsdp.py
-'''
+´´´
