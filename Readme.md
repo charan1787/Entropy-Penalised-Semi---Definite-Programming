@@ -16,6 +16,6 @@ We convert the result matrix back to 0, 1 using Goemans - Williamson rounding.
 
 ## Running script : 
 
-´´´python
+```python
 python max-cut-epsdp.py
-´´´
+```
