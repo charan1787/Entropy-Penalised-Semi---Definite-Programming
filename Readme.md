@@ -4,6 +4,10 @@ This project implements a numerical method to approximately solve the Max-Cut pr
 
 Max Cut : split graph nodes into two groups so that number of edges crossing between the groups in maximized.
 
+This model is published in 2019 (attached above)
+
+More clear explanation is attached in the code files. 
+
 ## Flow of solving : 
 
 Rank 1 solution (NP Hard) -> Semi Definite Programming -> Entropy penalised SDP
