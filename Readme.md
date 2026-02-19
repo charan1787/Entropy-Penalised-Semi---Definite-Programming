@@ -1,0 +1,21 @@
+# Entropy Penalised - Semi Definite Programming
+
+This project implements a numerical method to approximately solve the Max-Cut program (an NP-hard graph problem)
+
+Max Cut : split graph nodes into two groups so that number of edges crossing between the groups in maximized.
+
+## Flow of solving : 
+
+Rank 1 solution (NP Hard) -> Semi Definite Proggraming -> Entropy penalised SDP
+
+we are relaxing a hard constraint to high rank then adding entropy to it to get better solving time. 
+
+Entropy Function : tsallis entropy
+
+We convert the result matrix back to 0, 1 using Goemans - Williamson rounding.
+
+## Running script : 
+
+'''python
+python max-cut-epsdp.py
+'''
